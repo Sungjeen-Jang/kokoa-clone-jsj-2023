@@ -1,0 +1,33 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+
+/* 이거 안 해서 개고생함
+chat.css의
+#chat-screen .alt-header
+#chat-screen .status-bar와 유사함 */
+.body-settings .status-bar,
+.body-settings .alt-header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-settings {
+  margin-top: 100px;
+}
